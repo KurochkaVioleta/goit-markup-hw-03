@@ -1,0 +1,209 @@
+:root {
+  --primary-brand-color: #4d5ae5;
+  --dark-color: #2e2f42;
+  --success: #31d0aa;
+  --text-color: #434455;
+  --white-color: #ffffff;
+  --light-color: #f4f4fd;
+  --accent-color: #e7e9fc;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--text-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+/* HEADER  */
+/* LOGO  */
+.header-logo {
+  font-family: "Raleway", sans-serif;
+  color: var(--dark-color);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.header-logo-accent {
+  color: var(--primary-brand-color);
+}
+/* MENU  */
+.nav-link {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--dark-color);
+}
+.current {
+  color: var(--primary-brand-color);
+}
+.nav-link:hover,
+.nav-link:focus,
+.contact-link:hover,
+.contact-link:focus {
+  color: var(--primary-brand-color);
+}
+/* CONTACT  */
+.contact-link {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+}
+
+/* HERO  */
+.hero {
+  background-color: var(--text-color);
+}
+.hero-title {
+  font-weight: 500;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--white-color);
+}
+.hero-button {
+  background-color: var(--primary-brand-color);
+  color: var(--white-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  align-items: center;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #404bbf;
+}
+
+/* BENEFITS  */
+.benefits-title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--dark-color);
+}
+.benefits-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+/*  FEATURES */
+.features-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--dark-color);
+}
+/* TEAM  */
+.team {
+background-color: var(--light-color);
+}
+.team-items {
+  background-color: var(--white-color);
+}
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--dark-color);
+}
+.team-name {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--dark-color);
+}
+.team-text {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+/* FOOTER  */
+.footer {
+  background-color: var(--dark-color);
+}
+.footer-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.16;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--light-color);
+}
+.footer-logo-accent {
+  color: var(--primary-brand-color);
+}
+.footer-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--accent-color);
+}
+/* PORTFOLIO  */
+/* MENU  */
+.menu-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  color: var(--primary-brand-color);
+  background-color: var(--light-color);
+}
+.menu-button:hover,
+.menu-button:focus {
+  background-color: var(--primary-brand-color);
+  color: var(--white-color);
+}
+.current-button{
+  background-color: var(--primary-brand-color);
+color: var(--white-color);
+}
+/* portfolio card  */
+.porfolio-title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.2;
+
+  letter-spacing: 0.02em;
+  color: var(--dark-color);
+}
+.portfolio-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+}
+.portfolio-text-tip {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--light-color);
+}
